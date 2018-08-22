@@ -1,0 +1,54 @@
+@font-face{
+    font-family:'Font Awesome 5 Free';
+    font-style:normal;
+    font-weight:400;
+    src:url(fonts/fa-regular-400.eot);
+    src:url(fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+        url(fonts/fa-regular-400.woff2) format("woff2"),
+        url(fonts/fa-regular-400.woff) format("woff"),
+        url(fonts/fa-regular-400.ttf) format("truetype"),
+        url(fonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-family:"Font Awesome 5 Free";font-weight:400}
+
+
+[data-icon]:after {
+    content: attr(data-icon);
+    font-family: 'Font Awesome 5 Free';
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+nav {
+    margin-top: 5%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    /*justify-content: center;*/
+    justify-content: space-around;
+}
+
+a:hover {
+    color:#4f8799;
+    cursor: pointer;   
+}
+
+a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+
+.card {
+    transition: 0.4s;
+    text-align: center;
+}
+
+.title-text {
+    padding: 0 16px 0 16px;
+}
+
